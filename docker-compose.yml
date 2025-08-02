@@ -39,7 +39,7 @@ services:
     depends_on:
       - db
     networks:
-      - prostock-network
+      - elearning-network
 
 volumes:
   mysql_data:
