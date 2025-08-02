@@ -1,16 +1,14 @@
 <?php
-// db.php
-$host = 'localhost';  // Ganti dengan host database Anda, misalnya 'localhost' atau IP
-$dbname = 'ajis';     // Nama database Anda
-$username = 'root';   // Username database, biasanya 'root' untuk XAMPP
-$password = '';       // Password untuk username database, kosongkan jika tidak ada
+$servername = "db";
+$username = "learning_user";
+$password = "learning_pass";
+$dbname = "dblearning";
 
-try {
-    // Membuat koneksi PDO
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  // Menampilkan error jika ada masalah
-} catch (PDOException $e) {
-    echo "Koneksi gagal: " . $e->getMessage();
-    exit();
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
