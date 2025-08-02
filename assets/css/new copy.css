@@ -1,0 +1,151 @@
+body {
+    background-image: url('../img/Ungu dan Biru Futuristik Presentasi Sidang Akhir.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.sidebar {
+    height: 100%;
+    background-color: #343a40;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar a:hover {
+    background-color: rgb(62, 88, 116);
+    color: white;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.navbar-custom {
+    background-color: rgb(51, 84, 119);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+:root {
+    --primary: #06BBCC;
+    --light: #F0FBFC;
+    --dark: #181d38;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn-primary, .btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-custom {
+    background-color: rgb(55, 171, 225);
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: hsl(229, 100%, 56.7%);
+}
+
+.card-header {
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-label, .text-center a {
+    color: #ddd;
+}
+
+.btn-primary {
+    background-color: rgb(37, 170, 242);
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.service-item {
+    background: var(--light);
+    transition: .5s;
+}
+
+.service-item:hover {
+    margin-top: -10px;
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}

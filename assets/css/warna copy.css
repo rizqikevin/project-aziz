@@ -1,0 +1,100 @@
+body {
+    background-image: url('assets/img/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: rgb(55, 171, 225);
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: hsl(229, 100%, 56.7%);
+}
+
+.card-header {
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-label, .text-center a {
+    color: #ddd;
+}
+
+body {
+    background-image: url('img/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color:rgb(30, 206, 249);
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color:rgb(72, 191, 215);
+}
+
+.card-header {
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-label, .text-center a {
+    color: #ddd;
+}
+
+.btn-primary {
+    background-color:rgb(37, 170, 242);
+    border: none;
+}

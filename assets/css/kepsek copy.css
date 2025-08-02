@@ -1,0 +1,43 @@
+body {
+    background-image: url('../img/Ungu dan Biru Futuristik Presentasi Sidang Akhir.png'); /* Ganti dengan path gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+.sidebar {
+    height: 100%;
+    background-color: #343a40;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Transparan pada sidebar */
+}
+.sidebar a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid #444;
+}
+.sidebar a:hover {
+    background-color:rgb(62, 88, 116);
+    color: white;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.navbar-custom {
+    background-color:rgb(51, 84, 119);
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparan pada card */
+}
+.card-body {
+    padding: 30px;
+}
