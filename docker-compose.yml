@@ -8,11 +8,11 @@ services:
     volumes:
       - .:/var/www/html
     depends_on:
-      - db
+      - db2
     networks:
       - elearning-network
 
-  db:
+  db2:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
@@ -37,7 +37,7 @@ services:
     ports:
       - "9093:80"
     depends_on:
-      - db
+      - db2
     networks:
       - elearning-network
 
@@ -45,5 +45,5 @@ volumes:
   mysql_data:
 
 networks:
-  prostock-network:
+  elearning-network:
     driver: bridge
